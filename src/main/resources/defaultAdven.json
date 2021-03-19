@@ -1,0 +1,177 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 1,
+        "start": "true",
+        "name": "the foyer",
+        "short_description": "This is the foyer of the mansion",
+        "long_description": "The mansions foyer is a larger room with a stair case in the middle of the room,there are numerous paintings covering the walls",
+        "entrance": [
+          {
+            "id": 2,
+            "dir": "N"
+          },
+          {
+            "id": 3,
+            "dir": "E"
+          },
+          {
+            "id": 4,
+            "dir": "W"
+          },
+          {
+            "id": 6,
+            "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "the dinning room",
+        "short_description": "A large dinning room, you see a large table",
+        "long_description": "The large dinning room contains a large dark wooden table in the center of the room, there is a window to the left overlooking the lake",
+        "entrance": [
+          {
+            "id": 1,
+            "dir": "S"
+          },
+          {
+            "id": 5,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "the living room",
+        "short_description": "The living room, you see a large tv in the room",
+        "long_description": "The living room, there are couches that surround a large wall mounted tv, there is also bookcases covering the wall to the W",
+        "entrance": [
+          {
+            "id": 5,
+			"dir": "N"
+          },
+          {
+            "id": 1,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "the old dusty room",
+        "short_description": "The room looks ancient, there is dusty everywhere",
+        "long_description": "The rooms furniture is covered in sheets that have a layer of dust on them,the moon shines an eerie light into the room",
+        "entrance": [
+          {
+            "id": 1,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          },
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "the kitchen",
+        "short_description": "The kitchen looks brand new and is completely cleaned",
+        "long_description": "The kitchens metal counter shines your reflection back at you.There are 4 large ovens and a freezer room in the back",
+        "entrance": [
+          {
+            "id": 3,
+            "dir": "S"
+          },
+          {
+            "id": 2,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "the basement",
+        "short_description": "The basement is pitch black",
+        "long_description": "The basement is pitch blackexcept for the stairs that lead back up",
+        "entrance": [
+          {
+            "id": 1,
+            "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "key",
+        "desc": "an old rusted key, looks like it will still work",
+        "tossable":true
+      },
+      {
+        "id": 2,
+        "name": "book",
+        "desc": "a red book, its covered with a lock, feels like there is something inside",
+        "readable":true
+      },
+      {
+        "id": 3,
+        "name": "lamp",
+        "desc": "a dusty lamp, looks like it needs fuel"
+        
+      },
+      {
+        "id": 4,
+        "name": "lamp fuel",
+        "desc": "Fuel for a lamp",
+        "edible": true,
+        "tossable":true
+        
+      },
+      {
+        "id": 0,
+        "name": "potion",
+        "desc": "A large potion in a red bottle",
+        "edible":true
+      },
+      {
+          "id": 5
+          "name": "Hat",
+          "desc": "A cool looking hat, it says obey on it",
+          "wearable":true,
+          "readable":true
+      }
+    ]
+  }
+}
